@@ -1,0 +1,3 @@
+/Users/jonathanhenshaw/Documents/Plugins/my_plugins/phase-ripper/build/CMakeFiles/rebuild_cache.dir
+/Users/jonathanhenshaw/Documents/Plugins/my_plugins/phase-ripper/build/CMakeFiles/edit_cache.dir
+/Users/jonathanhenshaw/Documents/Plugins/my_plugins/phase-ripper/build/CMakeFiles/PhaseRipper.dir

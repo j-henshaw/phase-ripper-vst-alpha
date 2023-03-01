@@ -1,0 +1,26 @@
+HarmonicFlipInfo
+    polarity
+    inversion
+    active
+
+NoteInfo
+    Fundamental
+    Pitchbend
+    Time (double)
+
+HarmonicFlipper
+    HarmonicFlipInfo[] harmonics
+    HarmonicFlipInfo[] subharmonics
+    void process(std::pair<double&, double&> audio_frame, NoteInfo note)
+	//Update harmonic state
+	//Multiply samples in the frame by the harmonic state
+    
+NoteBank
+    NoteInfo voice[]
+    polyphony
+    void process(audio_output_framebuffer&, note_events, pitchbend_events)
+        update voices
+        call HarmonicFlipper::process for each active note each frame
+        output audio frames
+
+
